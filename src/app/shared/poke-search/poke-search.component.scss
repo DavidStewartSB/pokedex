@@ -1,0 +1,22 @@
+@import '../../config-scss/index.scss';
+
+:host {
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: rem-cal(10);
+
+    input {
+      width: 95%;
+      background: none;
+      border: none;
+      padding: rem-calc(15) rem-calc(20);
+
+      font-size: rem-cal(18);
+
+      color: var(--neutra);
+    }
+  }
+}
